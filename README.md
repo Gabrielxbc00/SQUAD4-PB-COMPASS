@@ -11,8 +11,8 @@ Me considero uma pessoa ágil e consistente em aprender uma nova linguagem e me 
   <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="REACT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
   <img align="center" alt="PYTHON" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="REACT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-plain.svg">
-  <img align="center" alt="REACT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain.svg">
+  <img align="center" alt="LINUX" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-plain.svg">
+  <img align="center" alt="GIT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain.svg">
 </div>
 
 ## Portfólio
@@ -26,24 +26,34 @@ Me considero uma pessoa ágil e consistente em aprender uma nova linguagem e me 
 
 ## Cultura Ágil e Segurança
 
+![Progress](https://progress-bar.dev/10/)
+
 - [ ] Segurança em Aplicações WEB
 - [ ] Métodos ágeis
 
 ## Sprint 1
+
+![Progress](https://progress-bar.dev/100/)
 
 - [x] Linux
 - [x] Git e GitHub
 
 ## Sprint 2
 
+![Progress](https://progress-bar.dev/0/)
+
 - [ ] SQL 
 - [ ] Big Data 
 
 ## Sprint 3
 
+![Progress](https://progress-bar.dev/0/)
+
 - [ ] Python
 
 ## Sprint 4
+
+![Progress](https://progress-bar.dev/0/)
 
 - [ ] Python 
 - [ ] Docker
@@ -51,24 +61,36 @@ Me considero uma pessoa ágil e consistente em aprender uma nova linguagem e me 
 
 ## Sprint 5
 
+![Progress](https://progress-bar.dev/0/)
+
 - [ ] AWS Skill Builder
 
 ## Sprint 6
+
+![Progress](https://progress-bar.dev/0/)
 
 - [ ] AWS
 
 ## Sprint 7
 
+![Progress](https://progress-bar.dev/0/)
+
 - [ ] Apache Spark
 
 ## Sprint 8
+
+![Progress](https://progress-bar.dev/0/)
 
 - [ ] AWS
 
 ## Sprint 9
 
+![Progress](https://progress-bar.dev/0/)
+
  - [ ] Atividade
 
 ## Sprint 10
+
+![Progress](https://progress-bar.dev/0/)
 
 - [ ] AWS
