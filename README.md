@@ -44,7 +44,7 @@ Me considero uma pessoa ágil e consistente em aprender uma nova linguagem e me 
 
 ![Progress](https://progress-bar.dev/0/)
 
-- [ ] SQL 
+- [x] SQL 
 - [ ] Big Data 
 
 ## Sprint 3
