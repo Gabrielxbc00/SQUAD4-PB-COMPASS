@@ -19,15 +19,14 @@ LIMIT 1;
 
 
 -- Questão 10
-SELECT 'Vendedor ' || v.cdvdd AS vendedor,
-       SUM(vd.vrunt * vd.qtd) AS valor_total_vendas,
-       ROUND(SUM(vd.vrunt * vd.qtd) * v.perccomissao / 100, 2) AS comissao
-  FROM tbvendas vd
-       JOIN
-       tbvendedor v ON vd.cdvdd = v.cdvdd
- WHERE vd.status = 'Concluído'
- GROUP BY v.cdvdd
- ORDER BY comissao DESC;
+SELECT
+    v.nmvdd AS vendedor,
+    SUM(vd.vrunt * vd.qtd) AS valor_total_vendas,
+    ROUND(SUM(vd.vrunt * vd.qtd) * v.perccomissao / 100, 2) AS comissao
+FROM tbvendedor v
+LEFT JOIN tbvendas vd ON v.cdvdd = vd.cdvdd AND vd.status = 'Concluído'
+GROUP BY v.cdvdd
+ORDER BY comissao DESC;
 
 
 -- Questão 11
