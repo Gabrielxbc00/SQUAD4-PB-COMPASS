@@ -28,9 +28,9 @@ Me considero uma pessoa ágil e consistente em aprender uma nova linguagem e me 
 
 ## Cultura Ágil e Segurança
 
-![Progress](https://progress-bar.dev/30/)
+![Progress](https://progress-bar.dev/50/)
 
-- [ ] Segurança em Aplicações WEB
+- [x] Segurança em Aplicações WEB
 - [ ] Métodos ágeis
 
 ## Sprint 1
@@ -49,9 +49,9 @@ Me considero uma pessoa ágil e consistente em aprender uma nova linguagem e me 
 
 ## Sprint 3
 
-![Progress](https://progress-bar.dev/0/)
+![Progress](https://progress-bar.dev/100/)
 
-- [ ] Python
+- [x] Python
 
 ## Sprint 4
 
