@@ -55,11 +55,11 @@ Me considero uma pessoa ágil e consistente em aprender uma nova linguagem e me 
 
 ## Sprint 4
 
-![Progress](https://progress-bar.dev/70/)
+![Progress](https://progress-bar.dev/100/)
 
 - [x] Python 
-- [ ] Docker
-- [ ] Estatística Descritiva com Python
+- [x] Docker
+- [x] Estatística Descritiva com Python
 
 ## Sprint 5
 
