@@ -63,7 +63,7 @@ Me considero uma pessoa ágil e consistente em aprender uma nova linguagem e me 
 
 ## Sprint 5
 
-![Progress](https://progress-bar.dev/0/)
+![Progress](https://progress-bar.dev/85/)
 
 - [ ] AWS Skill Builder
 
