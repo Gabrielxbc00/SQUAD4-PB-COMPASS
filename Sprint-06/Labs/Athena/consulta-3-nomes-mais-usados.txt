@@ -1,0 +1,21 @@
+WITH ranked_names AS (
+  SELECT
+    nome,
+    ano,
+    total,
+    ROW_NUMBER() OVER (PARTITION BY CAST(ano / 10 AS INT) ORDER BY total DESC) AS rank_decada
+  FROM
+    meubanco.mytable
+  WHERE
+    ano BETWEEN 1950 AND 2024
+)
+SELECT
+  CAST((ano / 10) * 10 AS INT) AS decada,
+  nome,
+  total
+FROM
+  ranked_names
+WHERE
+  rank_decada <= 3
+ORDER BY
+  decada, rank_decada;
