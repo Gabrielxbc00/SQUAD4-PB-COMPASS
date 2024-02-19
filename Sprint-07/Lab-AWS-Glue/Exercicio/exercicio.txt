@@ -1,0 +1,46 @@
+import sys
+from awsglue.utils import getResolvedOptions
+from pyspark.context import SparkContext
+from awsglue.context import GlueContext
+from awsglue.job import Job
+
+## @params: [JOB_NAME]
+args = getResolvedOptions(sys.argv, ['JOB_NAME', 'S3_INPUT_PATH', 'S3_TARGET_PATH', 'BUCKET'])
+bucket = args['BUCKET']
+
+sc = SparkContext()
+glueContext = GlueContext(sc)
+spark = glueContext.spark_session
+job = Job(glueContext)
+job.init(args['JOB_NAME'], args)
+
+# Ler o arquivo nomes.csv no S3
+source_file = args['S3_INPUT_PATH']
+df = glueContext.create_dynamic_frame.from_options(
+    "s3",
+    {
+        "paths": [source_file]
+    },
+    "csv",
+    {"withHeader": True, "separator": ","},
+)
+
+# Imprimir o schema do dataframe
+df.printSchema()
+
+# Alterar a caixa dos valores da coluna 'nome' para MAIÚSCULO
+df_uppercase = df.apply("nome", "string", lambda x: x.upper())
+
+# Exibir os primeiros registros do dataframe após a transformação
+df_uppercase.toDF().show()
+
+# Escrever o conteúdo do dataframe no S3 no formato JSON
+target_path = args['S3_TARGET_PATH']
+glueContext.write_dynamic_frame.from_options(
+    frame=df_uppercase,
+    connection_type="s3",
+    connection_options={"path": target_path},
+    format="json"
+)
+
+job.commit()
