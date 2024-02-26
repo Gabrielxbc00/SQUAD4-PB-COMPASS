@@ -81,9 +81,9 @@ Me considero uma pessoa ágil e consistente em aprender uma nova linguagem e me 
 
 ## Sprint 8
 
-![Progress](https://progress-bar.dev/0/)
+![Progress](https://progress-bar.dev/100/)
 
-- [ ] AWS
+- [x] AWS
 
 ## Sprint 9
 
