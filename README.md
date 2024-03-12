@@ -87,9 +87,9 @@ Me considero uma pessoa ágil e consistente em aprender uma nova linguagem e me 
 
 ## Sprint 9
 
-![Progress](https://progress-bar.dev/0/)
+![Progress](https://progress-bar.dev/100/)
 
- - [ ] Atividade
+ - [x] Atividades e Desafio
 
 ## Sprint 10
 
